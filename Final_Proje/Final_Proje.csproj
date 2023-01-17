@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79CEDF12-F8D6-4596-876D-0498AA5AECBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Final_Proje</RootNamespace>
+    <AssemblyName>Final_Proje</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FakeData, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FakeData.1.0.0\lib\FakeData.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinGruplari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinGruplari.Designer.cs">
+      <DependentUpon>BesinGruplari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinGruplari_1.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinGruplari_1.sayfa.Designer.cs">
+      <DependentUpon>BesinGruplari_1.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinGruplari_2.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinGruplari_2.sayfa.Designer.cs">
+      <DependentUpon>BesinGruplari_2.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinGruplari_3.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinGruplari_3.sayfa.Designer.cs">
+      <DependentUpon>BesinGruplari_3.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinGruplari_4.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinGruplari_4.sayfa.Designer.cs">
+      <DependentUpon>BesinGruplari_4.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri.Designer.cs">
+      <DependentUpon>BesinOgeleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_1.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_1.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_1.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_10.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_10.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_10.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_11.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_11.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_11.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_12.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_12.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_12.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_13.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_13.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_13.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_14.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_14.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_14.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_2.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_2.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_2.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_3.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_3.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_3.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_4.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_4.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_4.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_5.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_5.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_5.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_6.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_6.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_6.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_7.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_7.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_7.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_8.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_8.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_8.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BesinOgeleri_9.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BesinOgeleri_9.sayfa.Designer.cs">
+      <DependentUpon>BesinOgeleri_9.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeIleIlgiliKavramlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeIleIlgiliKavramlar.Designer.cs">
+      <DependentUpon>BeslenmeIleIlgiliKavramlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_1.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_1.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_1.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_2.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_2.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_2.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_3.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_3.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_3.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_4.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_4.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_4.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_5.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_5.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_5.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_6.sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeİleIlgiliKavramlarFormu_6.sayfa.Designer.cs">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_6.sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="final_proje_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>final_proje_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinGruplari.resx">
+      <DependentUpon>BesinGruplari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinGruplari_1.sayfa.resx">
+      <DependentUpon>BesinGruplari_1.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinGruplari_2.sayfa.resx">
+      <DependentUpon>BesinGruplari_2.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinGruplari_3.sayfa.resx">
+      <DependentUpon>BesinGruplari_3.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinGruplari_4.sayfa.resx">
+      <DependentUpon>BesinGruplari_4.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri.resx">
+      <DependentUpon>BesinOgeleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_1.sayfa.resx">
+      <DependentUpon>BesinOgeleri_1.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_10.sayfa.resx">
+      <DependentUpon>BesinOgeleri_10.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_11.sayfa.resx">
+      <DependentUpon>BesinOgeleri_11.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_12.sayfa.resx">
+      <DependentUpon>BesinOgeleri_12.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_13.sayfa.resx">
+      <DependentUpon>BesinOgeleri_13.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_14.sayfa.resx">
+      <DependentUpon>BesinOgeleri_14.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_2.sayfa.resx">
+      <DependentUpon>BesinOgeleri_2.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_3.sayfa.resx">
+      <DependentUpon>BesinOgeleri_3.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_4.sayfa.resx">
+      <DependentUpon>BesinOgeleri_4.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_5.sayfa.resx">
+      <DependentUpon>BesinOgeleri_5.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_6.sayfa.resx">
+      <DependentUpon>BesinOgeleri_6.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_7.sayfa.resx">
+      <DependentUpon>BesinOgeleri_7.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_8.sayfa.resx">
+      <DependentUpon>BesinOgeleri_8.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BesinOgeleri_9.sayfa.resx">
+      <DependentUpon>BesinOgeleri_9.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeIleIlgiliKavramlar.resx">
+      <DependentUpon>BeslenmeIleIlgiliKavramlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_1.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_1.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_2.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_2.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_3.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_3.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_4.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_4.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_5.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_5.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeslenmeİleIlgiliKavramlarFormu_6.sayfa.resx">
+      <DependentUpon>BeslenmeİleIlgiliKavramlarFormu_6.sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="final_proje_dbDataSet.xsc">
+      <DependentUpon>final_proje_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="final_proje_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>final_proje_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="final_proje_dbDataSet.xss">
+      <DependentUpon>final_proje_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

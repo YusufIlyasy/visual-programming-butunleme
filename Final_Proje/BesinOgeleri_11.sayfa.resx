@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Vitaminlerin görevleri şunlardır:
+• Sağlıklı büyüme ve yaşamın sürdürülmesinde etkilidir.
+• Sinir ve sindirim sistemlerinin normal çalışmasını sağlar.
+• Hastalıklara karşı vücut direncini korumaya yardımcıdır.
+• Hücre metabolizmasında katalizör (kimyasal tepkimeyi sağlayan madde) olarak görev yapar.</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Yaşamın sürdürülebilmesi, vücudun sağlıklı büyümesi ve gelişmesi için minerallere ihtiyaç vardır. İnsan 
+vücudunun %4-6’sı minerallerden oluşur. Vücut için gerekli olduğu bilinen minerallerin başında kalsiyum, fosfor,
+sodyum, potasyum, magnezyum, iyot, çinko, demir, bakır, flor, selenyum ve manganez gelmektedir.
+
+Kalsiyum (Ca): Vücutta en fazla bulunan mineraldir. Vücutta yer alan kalsiyumunun %99’u kemik ve dişlerde,
+%1’lik kısmı ise yumuşak dokularda ve kanda bulunmaktadır. Kalsiyum, kemik ve dişlerin gelişimini
+sağlar ve sağlığını korur. Kanın pıhtılaşmasında görevlidir. Hücre zarının taşıma işlevinde yer alır. Sinir iletimi ve
+kalp atımının denetimi için gereklidir.
+
+Başlıca kalsiyum kaynakları: Süt ve süt ürünleridir. Ayrıca yeşil yapraklı sebzeler, badem, fındık, susam gibi 
+yağlı tohumlar, yumurta, balık ve turunçgiller de kalsiyum yönünden oldukça zengin besinlerdir. Bitkisel kökenli 
+kalsiyum, emilimi zor olduğu için süt ve süt ürünlerine göre vücuda daha az katkı sağlamaktadır.
+
+Kalsiyum eksikliğinde; raşitizm, osteoporoz (kemik erimesi) ve osteomalazi gibi kemik hastalıkları, kaslarda kasılma
+ve kramplar görülebilir. Fazla alındığında ise demir emilimini olumsuz etkiler, böbrek taşlarına sebep olabilir.
+
+Fosfor (P): Fosfor insan vücudunda kalsiyumdan sonra en fazla bulunan mineraldir. Vücutta bulunan
+fosforun yaklaşık %85’i kemiklerde bulunur. Geri kalanı alyuvarlarda, vücut sıvılarında ve dokularda yer alır.
+Fosfor; kalsiyumla birlikte kemiklerin ve dişlerin yapısında, sinir ve kas fonksiyonlarında, besin ögelerinin vücutta
+kullanılmasında, osmotik basıncın düzenlenmesinde görev alır. Ayrıca fosfor elementi, kalp kasının kasılması, enerji
+üretimi, hücre büyümesi ve onarımı için de gereklidir.
+
+Başlıca fosfor kaynakları: Süt ve ürünleri, et ve et ürünleri, yumurta, balık, ceviz badem fındık gibi yağlı tohumlar, 
+baklagiller ve tahıllardır.
+
+Fosfor eksikliğinde; kemik ve diş sorunları, büyümede yavaşlama, huzursuzluk, kilo kaybı, eklem iltihapları görülebilir.
+Sodyum (Na): Suyun damar içinde tutulmasını sağlayarak sıvı kaybını önler. Kasların uyarılması ve kasılması 
+için gereklidir. Asit baz dengesini düzenler.
+
+Başlıca sodyum kaynakları: Tuzda bolca bulunur. Ayrıca her besin belirli oranlarda sodyum içermektedir. İnek sütü, 
+yoğurt, et, yumurta, havuç, yeşil yapraklı sebzelerde yer alır. Sodyum eksikliğinde su kaybından dolayı tansiyon düşer.</value>
+  </data>
+</root>

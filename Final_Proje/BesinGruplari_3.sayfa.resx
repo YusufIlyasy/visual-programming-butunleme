@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Bitkilerin yenilebilir her türlü kısmı meyve veya sebze grubunda yer alır. Mineraller ve vitaminler açısından oldukça 
+zengin olmasına rağmen günlük enerji ihtiyacının çok az bir kısmını karşılayabilir. Folik asit,
+B2, beta-karoten, E, C, K, potasyum, magnezyum, demir, kalsiyum, posa ve diğer antioksidan özelliğe
+sahip bileşenleri bulundurur.
+Sebze ve meyvelerin içerdikleri besin ögeleri ve miktarları birbirinden farklı olduğu için tüketiminde
+çeşitliliğe dikkat edilmelidir. Önerilen günlük tüketim miktarı 5 porsiyondur. Bunun 2 porsiyonunu yeşil
+yapraklı sebzeler, turunçgiller ya da domates oluşturmalıdır.
+Vitamin ve mineral deposu olan meyve, sebzelerin vücut
+için faydaları şunlardır:
+• Bağışıklık sistemini destekler.
+• Diş ve diş eti sağlığını korumaya yardımcıdır.
+• Göz ve cilt sağlığının korunmasında rol oynar.
+• Kan hücrelerinin yapımını destekler.
+• Doygunluk hissi vererek obezite riskini azaltır.
+• Kalp damar hastalıkları, hipertansiyon ve bazı kanserlere yakalanma riskini azaltır.
+• İçeriğindeki posa sayesinde sindirim sisteminin daha
+sağlıklı çalışmasına yardımcı olur</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Yaşam için gerekli olan temel besin ögeleri arasında yer alan yağlar, enerji deposudur. Diyetle yeterli miktarda 
+yağ tüketilmediği takdirde deride lezyonlar, saç dökülmeleri, yaraların geç iyileşmesi, pıhtılaşma sorunları,
+görme ve beyin işlevlerinde bozulma görülebilir. Bu yüzden günlük diyette yağların varlığı önemlidir.
+Besin grupları içinde en yoğun enerji yağlardan alınır. Ana yemeklerde, salatalarda, tatlılarda, böreklerde ve
+kızartmalarda kullanılan yağlar, lezzet verdiği gibi renk ve gevreklik de sağlar. Aynı zamanda sağlık açısından büyük 
+öneme sahip A, D, E ve K vitaminlerinin taşıyıcısıdır.
+Yetersiz yağ tüketiminde bu vitaminlerin bağırsaktan emilimleri yavaşlar. Aşırı tüketimi ise başta koroner kalp 
+hastalıkları olmak üzere obezite ve kanserin gelişimini tetikler.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Yaşam için gerekli olan temel besin ögeleri arasında yer alan yağlar, enerji deposudur. Diyetle yeterli miktarda 
+yağ tüketilmediği takdirde deride lezyonlar, saç dökülmeleri, yaraların geç iyileşmesi, pıhtılaşma sorunları,
+görme ve beyin işlevlerinde bozulma görülebilir. Bu yüzden günlük diyette yağların varlığı önemlidir.
+Besin grupları içinde en yoğun enerji yağlardan alınır. Ana yemeklerde, salatalarda, tatlılarda, böreklerde ve
+kızartmalarda kullanılan yağlar, lezzet verdiği gibi renk ve gevreklik de sağlar. Aynı zamanda sağlık açısından büyük 
+öneme sahip A, D, E ve K vitaminlerinin taşıyıcısıdır.
+Yetersiz yağ tüketiminde bu vitaminlerin bağırsaktan emilimleri yavaşlar. Aşırı tüketimi ise başta koroner kalp 
+hastalıkları olmak üzere obezite ve kanserin gelişimini tetikler.
+Şeker, şeker pancarı ya da şeker kamışı gibi kaynaklardan elde edilir. Günlük beslenmede iki tip şeker yer alır. 
+Bunlardan ilki yiyeceklerde doğal olarak bulunan şekerdir (örneğin meyvede bulunan fruktoz gibi). İkincisi ise 
+“ilave (ek) şeker” olarak isimlendirilen, yiyeceklerin işlenmesi ya da hazırlanması esnasında eklenen şeker veya 
+</value>
+  </data>
+</root>

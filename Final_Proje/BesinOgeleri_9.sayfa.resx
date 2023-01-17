@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Suda eriyen vitaminler B grubu ile C vitaminleridir. B grubu vitaminler tiamin (B1), riboflavin (B2), niasin
+(B3), pantotenik asit (B5), pridoksin (B6), folik asit (B9), kobalamin (B12) dir. B12 vitamini dışındakiler,
+vücutta depolanamaz ve fazlalıkları idrarla dışarı atılır. Bu nedenle günlük olarak alınmaları gerekir.
+
+Tiamin (B1): Kas, sinir ve sindirim sisteminin faaliyeti için gereklidir.
+
+Başlıca tiamin kaynakları: Tahıllarda, tahıl tohumlarının kabuklarında, ceviz, fıstık gibi kuru yemişlerde, kuru fasulye,
+soya fasulyesi, yumurta, süt gibi besinlerde bulunur.
+
+Tiamin eksikliğinde; yorgunluk, bulantı, kusma, kalp yetmezliği, sindirim sistemi sorunları ve beriberi hastalığı (B1
+vitamini eksikliğine bağlı ortaya çıkan, kalp ve sinir sistemini etkileyen bir hastalık) görülebilmektedir.
+
+Riboflavin (B2): Deri ve göz sağlığını korur. Karbonhidrat, lipit ve protein metabolizmasında görevlidir. Demirin 
+emilimine yardımcı olur, büyüme ve gelişmede önemli rolü vardır.
+Başlıca riboflavin kaynakları: Karaciğer, et, süt ve süt ürünleri, mantar, yumurta, balık, yeşil yapraklı sebzeler ve tahıllarda 
+bulunur.
+
+Riboflavin eksikliğinde; sinir sistemi rahatsızlıkları, dudakve ağız çevresinde çatlaklar, görme kayıpları, tırnak kırılması, kansızlık, 
+ishal ve ciltte lezyonlar görülebilmektedir.
+
+Niasin (B3): Sinir ve sindirim sistemi sağlığının korunmasında rolü vardır. Vücudun protein ve su metabolizmasında etkilidir. 
+Kan kolesterol seviyesini ayarlar.
+
+Başlıca niasin kaynakları: Et, tavuk, balık, yumurta, yer fıstığı, tahıl, yeşil yapraklı sebzeler, süt ve baklagillerde bolca bulunur
+
+Nisain eksikliğinde; çocuklarda büyümenin yavaşlaması, ishal, iştahsızlık, depresyon ve derinin güneş ışığı gören kısımlarında 
+yaralar görülebilir. İleri derecede niasin eksikliğinde ise pellegra hastalığı (B3 vitamini eksikliğine bağlı ortaya çıkan, deri, sindirim 
+ve sinir sistemini etkileyen bir hastalık) ortaya çıkar.
+
+Pantotenik asit (B5): Kan hücrelerinin, kortizol ve steroid hormonlarının yapımında rol alır. Karbonhidrat, yağ, protein metabolizmasında 
+yer alarak, tüketilen yiyeceklerin enerjiye dönüştürülmesine yardımcı olur.
+
+Başlıca pantotenik asit kaynakları: Karaciğer, kırmızı et, tavuk, yumurta, süt, bazı sebzeler ve tahıllarda bulunur.
+
+Pantotenik asit eksikliğinde; deride yaralar, saç dökülmesi, sinir sistemi bozuklukları, hâlsizlik, iştahsızlık, topuklarda
+yanma, tekrar eden üst solunum yolu hastalıkları gibi şikâyetler görülür. Pantotenik asit eksikliğine sık rastlanmaz.</value>
+  </data>
+</root>

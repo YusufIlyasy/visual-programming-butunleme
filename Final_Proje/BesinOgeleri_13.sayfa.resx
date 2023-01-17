@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Demir (Fe): Vücutta bulunan en önemli minerallerden biridir. Kan yapımı için büyük önem taşır. Demir, kırmızı kan
+hücrelerindeki hemoglobinin yapısında bulunur. Hemoglobinin yapısında bulunan demirin görevi, oksijen taşımaktır.
+Demir, bağışıklık sistemi ve zihinsel performans için de gereklidir.
+
+Başlıca demir kaynakları: Karaciğer, et, balık, tavuk, yumurta gibi hayvansal kaynaklı besinlerde bolca bulunur. Kurutulmuş 
+meyveler, yeşil sebzeler, kuru baklagiller, pekmez, tahin helvası, kuru yemişler ve tahıl ürünleri gibi bitkisel kaynaklı birçok 
+besinde de demir minerali yer alır. Ancak hayvansal ürünlerdeki demir daha fazla emilir.
+Demir eksikliğinde demir eksikliği anemisi gelişir. Yorgunluk, iştahsızlık, baş dönmesi, hâlsizlik, kalp çarpıntısı 
+gibi belirtiler görülebilir.
+
+Bakır (Cu): Bakır minerali hücrelerde enerji üretimine yardım eder, kemik ve bağ dokunun oluşumunda rol oynar.
+Demir mineralinin bağırsaklardan emilimini sağlayarak hemoglobinin yapısına katılmasına yardımcı olur. Beyin ve
+sinir sisteminin normal fonksiyonları için gereklidir.
+
+Başlıca bakır kaynakları: Kuru baklagiller, et, balık, kakao, yumurta ve yeşil sebzelerde, susam, fıstık benzeri yağlı
+tohumlarda bolca bulunur. Bakır kaplarda pişen yiyeceklere de bakır karışabilir.
+
+Bakır eksikliğinde; anemi, bağışıklık sisteminde zayıflık görülebilir. Bakır fazlalığına çok sık rastlanmamakla 
+birlikte genellikle Wilson hastalığı (özellikle karaciğer ve beyinde bakır birikmesine neden olan genetik 
+bir hastalık) olanlarda görülür.
+
+Flor (F): Diş ve kemiklerin yapısının dayanıklılığını artırıcı etkisi vardır. Dişleri asit etkisinden korur, çürük oluşmasını önler.
+Başlıca flor kaynakları: Deniz suyunda flor bulunması nedeniyle balık ve diğer deniz ürünlerinde bol miktarda bulunur. 
+Su ve çayda da flor minerali yer alır.
+
+Flor eksikliğinde; diş çürümeleri görülebilir, kemiklerde zayıflama ve kemik kırıkları oluşabilir. Flor fazlalığında ise dişlerde 
+lekelenme ve eklemlerde kireçlenme görülebilir.
+
+Selenyum (Se): Güçlü bir antioksidandır. Bağışıklık sistemini güçlendirir, yaşlanmayı yavaşlatır, sağlıklı büyümeye
+ve gelişmeye yardımcı olur. Vücuttaki zehirli maddelerin atılmasını kolaylaştırdığı için kansere karşı koruyucu 
+olarak bilinir.
+
+Başlıca selenyum kaynakları: Balık, ay çekirdeği, karaciğer, yumurta ve hindi etinde bol miktarda selenyum minerali bulunur.
+
+Selenyum eksikliğinde; enfeksiyonlara sık yakalanma, büyüme geriliği, kalp-damar hastalıkları görülebilir. Fazla
+alındığında ise tırnak kırılması, saç dökülmesi, sinir ve sindirim sistemi bozuklukları görülebilir.
+
+Manganez (Mn): Vücutta protein sentezlenmesinde, büyümede, kanın pıhtılaşmasında, kemiklerin gelişmesinde sindirimde ve
+besinlerden enerji üretilmesinde görev alan antioksidan bir mineraldir. Yağ ve karbonhidrat metabolizması için gereklidir.
+
+Başlıca manganez kaynakları: Bitkisel besinler hayvansal besinlere göre daha fazla manganez içerir. En iyi kaynakları
+fındık, fıstık, ceviz, kuru baklagiller, tahıllar ve yeşil yapraklı sebzelerdir.</value>
+  </data>
+</root>
